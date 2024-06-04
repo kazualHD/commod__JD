@@ -53,7 +53,7 @@
     font-size: 16px;
    }
   .opening  {
-    height: 700px
+    height: 800px
   }
   .opening img {
     width: 250%;
@@ -162,7 +162,7 @@
         margin-top: 100px;
     }
     .opening {
-        height: 700px;
+        height: 800px;
     }
     .opening__block {
         max-width: 100%;
@@ -243,7 +243,7 @@
         margin-top: 100px;
     }
     .opening {
-        height: 700px;
+        height: 800px;
     }
     .opening__block {
         max-width: 100%;
@@ -359,6 +359,9 @@
             position: fixed;
         } */
          .menu__sub-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
             border: none;
             background: linear-gradient(to bottom, #000000, #000000);
          
